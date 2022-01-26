@@ -15,7 +15,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<CustomViewHolder> 
 
     @Override
     public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
-
+        holder.bind();
     }
 
     @Override
